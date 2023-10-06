@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printers</title>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+
+<body>
+    <div class="main-contanier">
+        <nav>
+            <ul class="nav-left">
+                <div class="nav_button" class="nav-button"><a id = "total_price">Total Price: 0</a></div>
+                <button id="count_button">Count</button>
+                <button id="sort_button" class="nav-button" onclick="">Sort printers by price</button>
+                <button id="restore_button" class="nav-button" onclick="">Restore</button>
+
+            </ul>
+            <form id="search">
+                <input type="text" name="query" id="search_field" placeholder="Type to search">
+                <button id="find_button" class="nav-button" type="button" onclick="">Find</button>
+            </form>
+
+        </nav>
+        <div class="bottom-contanier">
+        <div id="container">
+            <form class="creating-printer" id="creating_printer">
+                <h2>Create printer</h2>
+                <div class="label-input-block">
+                    <label for="title_input" class="label-field">Name</label>
+                    <input type="text" id="title_input" class="input-field" name="title" required>
+                </div>
+                <div class="label-input-block">
+                    <label for="price_input" class="label-field">Price</label>
+                    <input type="number" id="price_input" class="input-field"name="price" required>
+                </div>
+                <div class="label-input-block">
+                    <label for="type_input" class="label-field">Type</label>
+                    <input type="text" id="type_input" class="input-field"name="type" required>
+                </div>
+                <button id="submit_button" type="submit" class="submit-button" >Submit</button>
+            </form>
+        </div>
+            <ul id="items_contanier" class="items-contanier">
+
+            </ul>
+        </div>   
+        
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
