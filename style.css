@@ -52,6 +52,7 @@ nav{
     width: 25%;
     height: 675px;
     background-color: rgba(108, 92, 92, 0.21);
+    flex-direction: column;
 }
 
 .input-field{
@@ -64,8 +65,9 @@ nav{
 .creating-printer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    padding-top: 70px;
 }
 
 .submit-button{
@@ -74,6 +76,7 @@ nav{
     font-family: sans-serif;
     font-size: 17px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .label-field{
@@ -91,7 +94,7 @@ nav{
 .items-contanier{
     display: flex;
     width: 75%;
-    height: 675px;
+    height: 710px;
     flex-wrap: wrap;
 }
 
@@ -101,7 +104,7 @@ nav{
     font-family: sans-serif;
     font-size: 20px;
     width: 200px;
-    height: 200px;
+    height: 280px;
     background-color: bisque;
     margin-left: 25px;
     margin-right: 35px;
@@ -109,9 +112,23 @@ nav{
     padding-left: 20px;
 }
 
+
 #count_button{
     height: 40px;
     border-radius: 8px;
     font-size: 17px;
+}
+
+#edit_title_input, #edit_price_input, #edit_type_input{
+
+    margin-top: 30px;
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#submit_edit_button{
+    margin-top: 10px;
+    height: 50px;
 }
 
