@@ -1,6 +1,0 @@
-CREATE TABLE printers (
-    id SERIAL PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    price NUMERIC(10, 2) NOT NULL,
-    type VARCHAR(50) NOT NULL
-);
