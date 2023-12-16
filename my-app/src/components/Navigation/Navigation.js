@@ -7,6 +7,7 @@ import {
     
 } from "@ant-design/icons";
 
+
 const Navigation = () => (
     
         <LinkingWrapper>
@@ -29,7 +30,7 @@ const Navigation = () => (
                 </div>
                 <div className="right-nav-elements">
                     <IconsWrapper>
-                        <ShoppingCartOutlined />
+                        <NavLink to="/Cart"> Cart</NavLink>
                     </IconsWrapper>
                 </div>
             </div>
